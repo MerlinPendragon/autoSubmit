@@ -24,7 +24,7 @@ var lxdh string
 var username = flag.String("username", "", "学号")
 var password = flag.String("password", "", "portal密码")
 var reason = flag.String("reason", "科研", "出入校事由")
-var track = flag.String("track", "北大东门-物理学院-北大东门 ", "出校行动轨迹")
+var track = flag.String("track", "北大东门-物理学院-北大东门", "出校行动轨迹")
 var ftKey string
 
 func errorNotifier(title string) {
